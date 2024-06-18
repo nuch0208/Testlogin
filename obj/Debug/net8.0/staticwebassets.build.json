@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d2mxHUXHZb9O93YGW7VkhSoVb0z4R9yFeQDZVHIuvfI=",
+  "Hash": "pZ1ec0Jq12JhRI5/6eLz6+YlaTwWzZF/IhUqPKyxcxE=",
   "Source": "test",
   "BasePath": "_content/test",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "test\\wwwroot",
+      "Name": "test/wwwroot",
       "Source": "test",
-      "ContentRoot": "C:\\test\\test\\wwwroot\\",
+      "ContentRoot": "/Users/home/Desktop/Testlogin/wwwroot/",
       "BasePath": "_content/test",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\test\\test\\obj\\Debug\\net8.0\\scopedcss\\bundle\\test.styles.css",
+      "Identity": "/Users/home/Desktop/Testlogin/obj/Debug/net8.0/scopedcss/bundle/test.styles.css",
       "SourceId": "test",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\test\\test\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "/Users/home/Desktop/Testlogin/obj/Debug/net8.0/scopedcss/bundle/",
       "BasePath": "_content/test",
       "RelativePath": "test.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\test\\test\\obj\\Debug\\net8.0\\scopedcss\\bundle\\test.styles.css"
+      "OriginalItemSpec": "/Users/home/Desktop/Testlogin/obj/Debug/net8.0/scopedcss/bundle/test.styles.css"
     },
     {
-      "Identity": "C:\\test\\test\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\test.bundle.scp.css",
+      "Identity": "/Users/home/Desktop/Testlogin/obj/Debug/net8.0/scopedcss/projectbundle/test.bundle.scp.css",
       "SourceId": "test",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\test\\test\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "/Users/home/Desktop/Testlogin/obj/Debug/net8.0/scopedcss/projectbundle/",
       "BasePath": "_content/test",
       "RelativePath": "test.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\test\\test\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\test.bundle.scp.css"
+      "OriginalItemSpec": "/Users/home/Desktop/Testlogin/obj/Debug/net8.0/scopedcss/projectbundle/test.bundle.scp.css"
     },
     {
-      "Identity": "C:\\test\\test\\wwwroot\\app.css",
+      "Identity": "/Users/home/Desktop/Testlogin/wwwroot/app.css",
       "SourceId": "test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\test\\test\\wwwroot\\",
+      "ContentRoot": "/Users/home/Desktop/Testlogin/wwwroot/",
       "BasePath": "_content/test",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\app.css"
+      "OriginalItemSpec": "wwwroot/app.css"
     },
     {
-      "Identity": "C:\\test\\test\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "/Users/home/Desktop/Testlogin/wwwroot/bootstrap/bootstrap.min.css",
       "SourceId": "test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\test\\test\\wwwroot\\",
+      "ContentRoot": "/Users/home/Desktop/Testlogin/wwwroot/",
       "BasePath": "_content/test",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css"
     },
     {
-      "Identity": "C:\\test\\test\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "/Users/home/Desktop/Testlogin/wwwroot/bootstrap/bootstrap.min.css.map",
       "SourceId": "test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\test\\test\\wwwroot\\",
+      "ContentRoot": "/Users/home/Desktop/Testlogin/wwwroot/",
       "BasePath": "_content/test",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -109,13 +109,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\test\\test\\wwwroot\\favicon.png",
+      "Identity": "/Users/home/Desktop/Testlogin/wwwroot/favicon.png",
       "SourceId": "test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\test\\test\\wwwroot\\",
+      "ContentRoot": "/Users/home/Desktop/Testlogin/wwwroot/",
       "BasePath": "_content/test",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -128,7 +128,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.png"
+      "OriginalItemSpec": "wwwroot/favicon.png"
     }
   ]
 }
