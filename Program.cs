@@ -15,14 +15,17 @@ builder.Services.AddScoped<ProtectedSessionStorage>();
 builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
 builder.Services.AddSingleton<UserAccountService>();
 builder.Services.AddCascadingAuthenticationState();
-// builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-//     .AddCookie(options =>
-//     {
-//         options.Cookie.Name = "UserSession";
-//         options.LoginPath = "/";
-//         options.Cookie.MaxAge = TimeSpan.FromMinutes(30);
-//         options.
-//     });
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.Cookie.Name = "auth_token";
+        options.LoginPath = "/Login";
+        options.Cookie.MaxAge = TimeSpan.FromMinutes(30);
+        options.AccessDeniedPath = "/access-denied";
+        
+    });
+builder.Services.AddAuthentication();
+builder.Services.AddCascadingAuthenticationState();
 
 
 var app = builder.Build();

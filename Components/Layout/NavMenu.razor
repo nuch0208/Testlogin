@@ -36,7 +36,7 @@
             </Authorized>
         </AuthorizeView>
 
-        @* <AuthorizeView>
+        <AuthorizeView>
                 <Authorized>                    
                     <NavLink href="javascript:void()" class="btn btn-light disabled">@context.User?.Identity?.Name</NavLink>                    
                     <button type="button" class="btn btn-primary" @onclick="Logout">Logout</button>
@@ -44,17 +44,17 @@
                 <NotAuthorized>
                     <NavLink href="/login" class="btn btn-primary">Login</NavLink>
                 </NotAuthorized>
-        </AuthorizeView>  *@
+        </AuthorizeView>
     </nav>
 </div>
 
  
 
-@* @code{
+@code{
     private async Task Logout()
     {
         var customAuthStateProvider = (CustomAuthenticationStateProvider)authStateProvider;
         await customAuthStateProvider.UpdateAuthenticationState(null);
         navManager.NavigateTo("/", true);
     }
-}     *@
+}    
